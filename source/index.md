@@ -34,7 +34,7 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
     </p>
 
     <div class="code cli">
-        <pre class="cli">$ curl -sS https://gushphp.org/installer | php</pre>
+        <pre class="cli">$ curl -sS http://gushphp.org/installer | php</pre>
         <pre class="cli">$ mv gush.phar /usr/local/bin/gush</pre>
     </div>
 
