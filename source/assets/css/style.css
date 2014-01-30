@@ -1,0 +1,34 @@
+body {
+    font-family: "Archivo Narrow", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navbar.navbar-default {
+    border-radius: 0;
+}
+.navbar.navbar-default {
+    background-color: #c1b4a6;
+    border-bottom: 3px solid #000;
+    text-transform: lowercase;
+}
+
+.navbar.navbar-default .navbar-nav>li>a,
+.navbar.navbar-default a {
+    color: #444;
+}
+
+.navbar.navbar-default .navbar-nav>li>a:hover {
+    color: #000;
+    background-color: rgba(0,0,0,.125);
+}
+
+.hero {
+    margin: 2em 0;
+}
+.hero .img-responsive {
+    max-height: 50%;
+}
+
+footer[role="contentinfo"] {
+    margin-top: 5em;
+    text-align: center;
+}

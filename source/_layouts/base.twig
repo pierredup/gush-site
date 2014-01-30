@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+{% include "head.html" %}
+<body>
+    {% block navigation_wrapper %}
+        {% block navigation %}
+            <nav role="navigation">{% include "navigation.html" %}</nav>
+        {% endblock %}
+    {% endblock %}
+    {% block hero_wrapper %}
+        {% block hero %}{% endblock %}
+    {% endblock %}
+    <div id="main">
+        <div id="content">
+            <div class="container">
+                {% block content_wrapper %}{% block content %}{% endblock %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    {% block footer_wrapper %}
+        {% block footer %}
+            <footer role="contentinfo">{% include "footer.html" %}</footer>
+        {% endblock %}
+    {% endblock %}
+    {% include "after_footer.html" %}
+</body>
+</html>
