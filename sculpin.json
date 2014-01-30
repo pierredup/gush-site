@@ -1,0 +1,18 @@
+{
+    "name": "cordoval/sculpin-blog",
+    "description": "cordoval base blog",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luis Cordova",
+            "email": "cordoval@gmail.com",
+            "homepage": "http://craftitonline.com"
+        }
+    ],
+    "require": {
+    },
+    "config": {
+        "component-dir": "source/components"
+    }
+}
