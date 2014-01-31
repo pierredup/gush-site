@@ -45,5 +45,21 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
     <div class="code cli">
         <pre class="cli">$ gush configure</pre>
     </div>
+
+
+
+
+    <p>
+    &nbsp;
+    </p>
+    <h6>Gush is helped by:</h6>
+    <p>
+    &nbsp;
+    </p>
+    <div style="text-align: center;">
+        <img src="http://servergrove.com/images/logos/sg160x40_b.png"/>
+        <span>&nbsp;</span>
+        <img src="https://www.versioneye.com/assets/logos/versioneye-transparent-2494db513158178b56313616264e74ab.png"/>
+    </div>
 </div>
 {% endblock %}
