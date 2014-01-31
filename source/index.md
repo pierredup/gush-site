@@ -57,9 +57,11 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
     &nbsp;
     </p>
     <div style="text-align: center;">
-        <img src="http://servergrove.com/images/logos/sg160x40_b.png"/>
+        <a href="http://servergrove.com"><img src="http://servergrove.com/images/logos/sg160x40_b.png"/></a>
         <span>&nbsp;</span>
-        <img src="https://www.versioneye.com/assets/logos/versioneye-transparent-2494db513158178b56313616264e74ab.png"/>
+        <a href="https://www.versioneye.com/"><img src="https://www.versioneye.com/assets/logos/versioneye-transparent-2494db513158178b56313616264e74ab.png"/></a>
+        <span>&nbsp;</span>
+        <a href="http://dflydev.com/projects/gush"><img src="{{ site.url }}/assets/images/sponsors/dflydev@2x.png" width="145" height="35" /></a>
     </div>
 </div>
 {% endblock %}
