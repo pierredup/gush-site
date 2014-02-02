@@ -62,6 +62,8 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
         <a href="https://www.versioneye.com/"><img src="https://www.versioneye.com/assets/logos/versioneye-transparent-2494db513158178b56313616264e74ab.png"/></a>
         <span>&nbsp;</span>
         <a href="http://dflydev.com/projects/gush"><img src="{{ site.url }}/assets/images/sponsors/dflydev@2x.png" width="145" height="35" /></a>
+        <span>&nbsp;</span>
+        <a href="http://liip.ch"><img src="{{ site.url }}/assets/images/sponsors/liip.png" width="100" height="40" /></a>
     </div>
 </div>
 {% endblock %}
