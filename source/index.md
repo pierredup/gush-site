@@ -26,7 +26,8 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
 
     <p>
         If it is the first time you globally install a dependency then make sure you include
-        <strong class="title">~/.composer/vendor/bin</strong> in <strong class="title">$PATH</strong> as shown here.
+        <strong class="title">~/.composer/vendor/bin</strong> in <strong class="title">$PATH</strong>
+        as shown <a target="_blank" href="http://getcomposer.org/doc/03-cli.md#global">here</a>.
     </p>
 
     <p>
