@@ -21,7 +21,7 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
     </p>
 
     <div class="code cli">
-        <pre class="cli">$ composer global require 'cordoval/gush=dev-master'</pre>
+        <pre class="cli">$ composer global require 'gushphp/gush=dev-master'</pre>
     </div>
 
     <p>
