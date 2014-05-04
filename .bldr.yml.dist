@@ -1,0 +1,27 @@
+bldr:
+    name: gushphp/gush-site
+    description: Gush Project
+    profiles:
+        local:
+            description: Local Development Profile
+            tasks:
+                - localDev
+    tasks:
+        localDev:
+            description: Runs sculpin
+            calls:
+                -
+                    type: exec
+                    executable: clear
+                -
+                    type: exec
+                    executable: sculpin
+                    arguments:
+                        - install
+                -
+                    type: exec
+                    executable: sculpin
+                    arguments:
+                        - generate
+                        - --watch
+                        - --server
