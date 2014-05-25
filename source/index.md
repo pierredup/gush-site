@@ -71,6 +71,8 @@ full_title: "Gush: Rapid workflow for project maintainers and contributors"
         <a href="http://www.undergroundelephant.com"><img src="https://0.gravatar.com/avatar/c0282fc88ac5975cc27df4756c6b1166?d=https%3A%2F%2Fidenticons.github.com%2Fbf26652dcac407da985b6e2f20471318.png&r=x&s=140" width="100"/></a>
         <span>&nbsp;</span>
         <a href="http://bldr.io/"><img src="http://bldr.io/images/bldr.io.png" style="margin-left: 10px;" width="100"></a>
+        <span>&nbsp;</span>
+        <a href="http://www.coddict.com/"><img src="http://www.coddict.com/theme/images/logo.png" style="margin-left: 10px;" width="100"></a>
     </div>
 </div>
 {% endblock %}
